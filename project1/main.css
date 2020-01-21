@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+#product-overview {
+  background: url("freedom.jpg");
+  width: 100%;
+  height: 528px;
+  padding: 11px;
+}
+.section-title {
+  color: #2ddf5c;
+  font-family: inherit;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+h1 {
+  font-family: inherit;
+}
+
+.main-title {
+  background-color: white;
+  color: #168a35;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.plans {
+  background-color: #d5ffdc;
+  text-align: center;
+  border: 15px;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  width: 30%;
+  vertical-align: middle;
+}
+.highlight {
+  background-color: #168a35;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.period {
+  color: #9e9497;
+}
+.black {
+  color: rgb(49, 48, 48);
+}
+..button {
+  background: #0e4f1f;
+  font: inherit;
+  padding: 7px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background-color: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+}
+.offers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.offers li {
+  margin: 5px 0;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 20px;
+}
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+.key-features__element {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.key-features__list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.key-features__image {
+  background-color: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.key-features-description {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  width: bold;
+}

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.main-header {
+  background: #2ddf5c;
+  padding: 8px 15px;
+  width: 100%;
+  vertical-align: middle;
+}
+.main-header > div {
+  display: inline-block;
+}
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+.main-nav-items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.main-nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+.main-nav-item a {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px 0;
+}
+.main-nav-item-cti a {
+  color: white;
+  background: #a12f55;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active {
+  color: white;
+  border-bottom: 2px white solid;
+}
+.main-nav-item-cti a:hover,
+.main-nav-item-cti a:active {
+  color: red;
+  background: white;
+}
+.main-footer {
+  background-color: black;
+  padding: 32px;
+  margin-top:48px;
+}
+.main-footer__links{
+  list-style: none;
+  margin:0;
+  padding 0;
+  text-align: center;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer__link a{
+  color: white;
+  text-decoration: none;
+}
+.main-footer a:hover,
+.main-footer a:active{
+  color: #ccc;
+}
+.button {
+  background: #0e4f1f;
+  font: inherit;
+  padding: 7px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background-color: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+}
