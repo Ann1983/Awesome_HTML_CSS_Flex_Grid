@@ -10,6 +10,9 @@ body {
   padding: 8px 15px;
   width: 100%;
   vertical-align: middle;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 1;
 }
 .main-header > div {
   display: inline-block;
