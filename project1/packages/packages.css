@@ -1,24 +1,24 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 .background {
   background: url(../images/plans-background.jpg) center/cover;
   filter: grayscale(50%);
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   z-index: -1;
 }
 .package {
-  border: 4px solid #0e4f1f;
+  border: 3px solid #0e4f1f;
   border-left: none;
-  margin: 16px 0;
+  margin: 1rem 0;
   width: 80%;
   position: relative;
 }
 .package:hover,
 .package:active {
-  border: 4px solid blue;
+  border: 3px solid blue;
   width: 90%;
   border-left: none;
 }
@@ -26,37 +26,37 @@ main {
   text-decoration: none;
   text-align: inherit;
   display: block;
-  padding: 50px 32px;
+  padding: 3rem 2rem;
 }
 .package__badge {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
-  font-size: 14px;
+  margin: 1.2rem;
+  font-size: 0.8rem;
   color: white;
   background-color: red;
-  padding: 8px;
+  padding: 0.5rem;
   border-radius: 6%;
 }
 .clearfix {
   clear: both;
 }
 #plus {
-  background-color: rgba(213, 255, 220, 0.95);
+  background-color: rgba(159, 233, 172, 0.95);
 }
 
 #free {
   background-color: rgba(234, 252, 237, 0.95);
-  margin: 16px 0;
+  margin: 1rem 0;
   float: right;
   border-right: none;
-  border-left: 4px solid #0e4f1f;
+  border-left: 3px solid #0e4f1f;
   text-align: right;
 }
 #free:hover,
 #free:active {
-  border-left: 4px solid blue;
+  border-left: 3px solid blue;
 }
 
 .package .package__subtitle {
@@ -65,16 +65,24 @@ main {
 .package__info {
   background-color: #f1efef;
   color: #0d4f1f;
-  padding: 16px;
-  border: 1px solid #0d4f1f;
-  font-size: 17px;
+  padding: 1rem;
+  border: 2px solid #0d4f1f;
+  font-size: 1rem;
 }
 #premium {
   background-color: rgb(14, 79, 31, 0.95);
+  border: 3px solid white;
 }
 #premium .package__title {
   color: white;
 }
-#premium .packege__subtitle {
+#premium .package__subtitle {
   color: #bbb;
+}
+#premium .package__info {
+  border: 2px solid black;
+}
+#premium:hover,
+#premium:active {
+  border: 3px solid blue;
 }
