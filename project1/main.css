@@ -3,7 +3,7 @@
     url("images/freedom.jpg") center / cover no-repeat border-box, red;
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
+
   position: relative;
   /*background-image: linear-gradient(to left bottom,  red, yellow,  green);*/
   /*background-image: radial-gradient(circle, red, blue);*/

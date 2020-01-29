@@ -8,6 +8,8 @@ main {
   height: 100vh;
   position: fixed;
   z-index: -1;
+  top: 0;
+  left: 0;
 }
 .package {
   border: 3px solid #0e4f1f;
@@ -20,7 +22,6 @@ main {
 .package:active {
   border: 3px solid blue;
   width: 90%;
-  border-left: none;
 }
 .package a {
   text-decoration: none;
@@ -72,6 +73,7 @@ main {
 #premium {
   background-color: rgb(14, 79, 31, 0.95);
   border: 3px solid white;
+  border-left: none;
 }
 #premium .package__title {
   color: white;
@@ -85,4 +87,26 @@ main {
 #premium:hover,
 #premium:active {
   border: 3px solid blue;
+}
+@media (min-width: 40rem) {
+  main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1500px) {
+  .package {
+    border-left: 3px solid #0e4f1f;
+  }
+  #free {
+    border-right: 3px solid #0e4f1f;
+  }
+  #premium {
+    border-left: 3px solid white;
+  }
+  #free:hover,
+  #free:active {
+    border-right: 3px solid blue;
+  }
 }
