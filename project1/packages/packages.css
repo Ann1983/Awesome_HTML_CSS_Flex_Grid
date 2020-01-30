@@ -1,3 +1,9 @@
+@font-face {
+  src: url("AnonymousPro-Regular.ttf");
+}
+@font-face {
+  src: url("AnonymousPro-Regular.ttf");
+}
 main {
   padding-top: 2rem;
 }
@@ -68,7 +74,7 @@ main {
   color: #0d4f1f;
   padding: 1rem;
   border: 2px solid #0d4f1f;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 #premium {
   background-color: rgb(14, 79, 31, 0.95);
